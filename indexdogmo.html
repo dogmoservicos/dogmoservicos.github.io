@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-2.34.0.min.css" />
+        <link href=' http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="./js/frontpage.js"></script>
+    </head>
+    <body id="html-body">
+        <!-- Header -->
+
+        <div class="p-modal" id="modal" style="display: flex;">
+            <section class="p-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-description">
+              <header class="p-modal__header">
+                <h2 class="p-modal__title" id="modal-title">Help</h2>
+                <button class="p-modal__close" aria-label="Close active modal" aria-controls="modal">Close</button>
+              </header>
+              <p id="modal-description">Learn how to operate production-ready clusters.</p>
+              <div class="p-heading-icon--small">
+                <div class="p-heading-icon__header">
+                  <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/b81a45e4-kubernetes.svg" alt="">
+                  <p><a class="p-heading-icon__title" href="#tutorial/get-started-canonical-kubernetes">Kubernetes tutorial</a></p>
+                </div>
+                <div class="p-heading-icon__header">
+                  <img class="p-heading-icon__img" src="https://assets.ubuntu.com/v1/5e3456e3-hadoop.svg" alt="">
+                  <p><a class="p-heading-icon__title" href="#tutorial/get-started-hadoop-spark">Hadoop Spark tutorial</a></p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+        <div class="l-site">
+            <header id="navigation" class="p-navigation is-dark fixed-top">
+              <div class="p-navigation__row">
+                <div class="p-navigation__banner">
+                  <div class="p-navigation__logo">
+                    <a class="p-navigation__item" href="#">
+                      <!-- Imagem 480,65 px size = width 95-->
+                      <img class="p-navigation__image" src="img/logoparafundopreto.png" alt="Dogmo">
+                    </a>
+                  </div>
+                </div>
+                <nav class="p-navigation__nav" aria-label="Example main navigation">
+                    <ul class="p-navigation__items">
+                      <li class="p-navigation__item is-selected">
+                        <a class="p-navigation__link" href="#comofunciona">Como Funciona</a>
+                      </li>
+                      <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#">Planos</a>
+                      </li>
+                      <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#">Sobre nós</a>
+                      </li>
+                      <li class="p-navigation__item">
+                        <a class="p-navigation__link" href="#">Contato</a>
+                      </li>
+                    </ul>
+                    <ul class="p-navigation__items">
+                        <li class="p-navigation__item--dropdown-toggle" style="display: flex;" id="link-1">
+                          <a class="p-navigation__link" aria-controls="account-menu">
+                            Minha conta
+                          </a>
+                          <ul class="p-navigation__dropdown--right" id="account-menu" aria-hidden="false">
+                            <li>
+                              <a href="#" class="p-navigation__dropdown-item">Acessar</a>
+                            </li>
+                            <li>
+                              <a id="showModal" aria-controls="modal" class="p-navigation__dropdown-item">Inscrever-se</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </nav>
+              </div>
+            </header>
+
+
+            
+            <!-- Conteúdo da página -->
+
+            <section id="registro">
+            </section>
+
+            <section id="principal">
+                <div id="main-content" class="p-strip--suru is-deep">
+                    <div class="row ">
+                        <div class="col-12">
+                            <h1>Assinaturas Eletrônicas,
+                                de qualquer lugar.</h1>
+                            <p>De forma simples e prática, seus documentos podem ser assinados onde as partes estiverem, eletronicamente, com validade jurídica.</p>
+                            <ul class="p-inline-list u-no-margin--bottom">
+                                <li class="p-inline-list__item">
+                                    <a href="/docs" onclick="dataLayer.push({'event' : 'GAEvent', 'eventCategory' : 'Homepage', 'eventAction' : 'Docs link', 'eventLabel' : 'See the docs', 'eventValue' : undefined });" class="p-button--positive u-no-margin--bottom">Inscreva-se</a>
+                                </li>
+                                <li class="p-inline-list__item">
+                                    <a href="https://github.com/canonical-web-and-design/vanilla-framework/releases/latest" onclick="dataLayer.push({'event' : 'GAEvent', 'eventCategory' : 'Homepage', 'eventAction' : 'Downloads', 'eventLabel' : 'Download latest', 'eventValue' : undefined });" class="p-button u-no-margin--bottom">Saiba mais</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+            
+            <section id="comofunciona">
+                <div class="p-strip--light">
+                    <div class="u-fixed-width">
+                        <div class="row">
+                            <p class="p-heading--2">Como funciona?</p>
+                            <p class="p-heading--4">Aqui é tudo muito simples e prático, veja só:</p>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="p-card col-3">
+                                <h3 class="p-card__title "><center>Passo 1</center></h3>
+                                <p class="p-card__content"><center>Você se inscreve na plataforma e já pode começar a adicionar seus documentos e contratos.</center></p>
+                            </div>
+                            <div class="p-card col-3">
+                                <h3 class="p-card__title "><center>Passo 2</center></h3>
+                                <p class="p-card__content"><center>Para cadastrar documentos para assinatura, basta colar o documento, escolher um PDF ou selecionar um modelo, e informar o e-mail e o nome de quem irá assinar.</center></p>
+                            </div>
+                            <div class="p-card col-3">
+                                <h3 class="p-card__title "><center>Passo 3</center></h3>
+                                <p class="p-card__content"><center>A pessoa receberá um e-mail com a cópia do documento e instruções para assinatura.</center></p>
+                            </div>
+                            <div class="p-card col-3">
+                                <h3 class="p-card__title "><center>Passo 4</center></h3>
+                                <p class="p-card__content"><center>Pronto! Depois de todos assinarem, o documento ficará disponível on-line para todos os signatários, assinado e com toda a segurança.</center></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>       
+            
+            
+            <section id="sobrenos">
+                <div class="p-strip--suru">
+                    <div class="u-fixed-width">
+                        <div class="row d-flex align-items-top">
+                            <div class="col-6">
+                                <h2>Sobre nós</h2>
+                                <p>O Dogmo é uma plataforma para coletar assinaturas e gerenciar os documentos de sua empresa, de forma on-line. Você pode colar seu documento, ou criar modelos. Apenas indique quem deve assinar, que nós fazemos o resto.</p>
+                                <p>O signatário recebe o documento no seu computador ou celular, e pode assiná-lo na hora. O documento tem validade jurídica conforme a </p><b>Medida Provisória 2200-2/2001, Art. 10º, §2<br/></b>
+                                <p>Os documentos também podem ser enviados diretamente por outros sistemas da sua empresa, se este tiver esta funcionalidade.</p>
+                                <button href="#funcionamento" class="p-button">Saiba mais</button>
+                            </div>
+                            <div class="col-6"><img style="border-radius: 4%;" src="img/sobrenos.jpg" alt="..." class="img-fluid"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+          
+            <!-- Footer -->
+            <footer class="l-footer--sticky p-strip--light">
+              <nav class="row" aria-label="Footer navigation">
+                <div class="has-cookie">
+                  <p>© 2021 Dogmo Serviços. <a href="#">Todos os direitos reservados</a></p>
+                  <ul class="p-inline-list--middot">
+                    <li class="p-inline-list__item">
+                      <a href="#"><small>Informações Legais</small></a>
+                    </li>
+                    <li class="p-inline-list__item">
+                      <a href="#"><small>Reporte falhas nesse site</small></a>
+                    </li>
+                  </ul>
+                  <span class="u-off-screen"><a href="#">Go to the top of the page</a></span>
+                </div>
+              </nav>
+            </footer>
+          </div>
+    </body>
+
+                <!-- .js do Header -->
+                <script>
+                  function toggleDropdown(toggle, open) {
+                  var parentElement = toggle.parentNode;
+                  var dropdown = document.getElementById(toggle.getAttribute('aria-controls'));
+                  dropdown.setAttribute('aria-hidden', !open);
+                
+                  if (open) {
+                    parentElement.classList.add('is-active');
+                  } else {
+                    parentElement.classList.remove('is-active');
+                  }
+                }
+                
+                function closeAllDropdowns(toggles) {
+                  toggles.forEach(function (toggle) {
+                    toggleDropdown(toggle, false);
+                  });
+                }
+                
+                function handleClickOutside(toggles, containerClass) {
+                  document.addEventListener('click', function (event) {
+                    var target = event.target;
+                
+                    if (target.closest) {
+                      if (!target.closest(containerClass)) {
+                        closeAllDropdowns(toggles);
+                      }
+                    } else if (target.msMatchesSelector) {
+                      // IE friendly `Element.closest` equivalent
+                      // as in https://developer.mozilla.org/en-US/docs/Web/API/Element/closest
+                      do {
+                        if (target.msMatchesSelector(containerClass)) {
+                          return;
+                        }
+                        target = target.parentElement || target.parentNode;
+                      } while (target !== null && target.nodeType === 1);
+                
+                      closeAllDropdowns(toggles);
+                    }
+                  });
+                }
+                
+                function initNavDropdowns(containerClass) {
+                  var toggles = [].slice.call(document.querySelectorAll(containerClass + ' [aria-controls]'));
+                
+                  handleClickOutside(toggles, containerClass);
+                
+                  toggles.forEach(function (toggle) {
+                    toggle.addEventListener('click', function (e) {
+                      e.preventDefault();
+                
+                      closeAllDropdowns(toggles);
+                      toggleDropdown(toggle, true);
+                    });
+                  });
+                }
+                
+                initNavDropdowns('.p-navigation__item--dropdown-toggle')
+                </script>
+</html>
